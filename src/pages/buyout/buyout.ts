@@ -24,6 +24,6 @@ export class BuyoutPage {
     console.log('ionViewDidLoad BuyoutPage');
   }
   goHome(){
-    this.navCtrl.push(HomePage);
+    this.navCtrl.popToRoot();
   }
 }
