@@ -26,26 +26,26 @@ export class ShopPage {
   }
   addMilk(item, count){
     item = "Milk";
-    count = 0;
+    count = 1
     this.navCtrl.push(BuyoutPage,{
       'value': item,
-      'count': count + 1
+      'count': count
     })
   }
   addEggs(item, count){
     item = "Eggs";
-    count = 0
+    count = 1
     this.navCtrl.push(BuyoutPage,{
       'value': item,
-      'count': count + 1
+      'count': count
     })
   }
   addFlour(item, count){
     item = "Flour";
-    count = 0;
+    count = 1;
     this.navCtrl.push(BuyoutPage,{
       'value': item,
-      'count': count + 1
+      'count': count
     })
   }
 }
